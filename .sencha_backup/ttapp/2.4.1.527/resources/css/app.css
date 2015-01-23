@@ -1,0 +1,97 @@
+/*
+Error: File to import not found or unreadable: blueprint/typography.
+       Load paths:
+         Compass::SpriteImporter
+         E:/sencha/workspace/tt-sencha/resources/sass
+         C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets
+         E:/sencha/workspace/tt-sencha/touch/resources/themes/vendor/compass-recipes/stylesheets
+         E:/sencha/workspace/tt-sencha/touch/resources/themes/stylesheets
+        on line 3 of E:/sencha/workspace/tt-sencha/touch/resources/themes/stylesheets/sencha-touch/_base.scss
+        from line 21 of E:/sencha/workspace/tt-sencha/touch/resources/themes/stylesheets/sencha-touch/_default.scss
+        from line 4 of E:/sencha/workspace/tt-sencha/resources/sass/app.scss
+
+1: // The following two lines import the default Sencha Touch theme. If you are building
+2: // a new theme, remove them and the add your own CSS on top of the base CSS (which
+3: // is already included in your app.json file).
+4: @import 'sencha-touch/default';
+5: @import 'sencha-touch/default/all';
+6: 
+7: // Custom code goes here..
+8: 
+
+Backtrace:
+E:/sencha/workspace/tt-sencha/touch/resources/themes/stylesheets/sencha-touch/_base.scss:3
+E:/sencha/workspace/tt-sencha/touch/resources/themes/stylesheets/sencha-touch/_default.scss:21
+E:/sencha/workspace/tt-sencha/resources/sass/app.scss:4
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/import_node.rb:66:in `rescue in import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/import_node.rb:45:in `import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:325:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:325:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/engine.rb:268:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.10/lib/sass/plugin/compiler.rb:293:in `watch'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.0/lib/compass/sass_compiler.rb:46:in `watch!'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.0/lib/compass/commands/watch_project.rb:41:in `perform'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.0/lib/compass/commands/base.rb:18:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.0/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.0/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.0/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.0/bin/compass:30:in `block in <top (required)>'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.0/bin/compass:44:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.0/bin/compass:44:in `<top (required)>'
+C:/Ruby193/bin/compass:23:in `load'
+C:/Ruby193/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: blueprint/typography.\A        Load paths:\A          Compass::SpriteImporter\A          E:/sencha/workspace/tt-sencha/resources/sass\A          C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-core-1.0.3/stylesheets\A          E:/sencha/workspace/tt-sencha/touch/resources/themes/vendor/compass-recipes/stylesheets\A          E:/sencha/workspace/tt-sencha/touch/resources/themes/stylesheets\A         on line 3 of E:/sencha/workspace/tt-sencha/touch/resources/themes/stylesheets/sencha-touch/_base.scss\A         from line 21 of E:/sencha/workspace/tt-sencha/touch/resources/themes/stylesheets/sencha-touch/_default.scss\A         from line 4 of E:/sencha/workspace/tt-sencha/resources/sass/app.scss\A \A 1: // The following two lines import the default Sencha Touch theme. If you are building\A 2: // a new theme, remove them and the add your own CSS on top of the base CSS (which\A 3: // is already included in your app.json file).\A 4: @import 'sencha-touch/default';\A 5: @import 'sencha-touch/default/all';\A 6: \A 7: // Custom code goes here..\A 8: "; }
